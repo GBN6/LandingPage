@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    flex: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 0 32px;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
