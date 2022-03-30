@@ -31,7 +31,7 @@ body {
     gap: 15px;
     background-color: #1F2937;
     color: white;
-    padding: 3rem 2rem;
+    padding: 5rem 2rem;
 }
 
 .cont2 {
@@ -45,7 +45,7 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 64px;
 }
 
 .cont3 {
@@ -57,8 +57,10 @@ body {
     padding: 3rem 2rem;
 }
 .cont3_1 {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    max-width: 850px;
 }
 
 .cont4 {
@@ -71,13 +73,14 @@ body {
 }
 
 .cont4_1 {
+    flex: 1;
     display: flex;
     background-color: #3882F6;
     color: #f9faf8;
     border-radius: 8px;
     align-items: center;
     justify-content: space-around;
-    width: 850px;
+    max-width: 850px;
     padding: 2rem 2rem;
 }
 
@@ -140,6 +143,7 @@ a {
 
 .infoimg {
     max-width: 200px;
+    flex: 1;
 }
 .info_title {
     display: flex;
@@ -164,7 +168,7 @@ a {
 .quote {
     display: flex;
     flex: 1;
-    font-size: 48px;
+    font-size: 32px;
     font-style: italic;
     color: #1F2937;
 
@@ -189,7 +193,7 @@ a {
 .sing2 {
     background-color: #3882F6;
     color: #f9faf8;
-    padding: 5px 20px;
+    padding: 10px 30px;
     border-radius: 8px;
     border: 2px  solid white;
 }
