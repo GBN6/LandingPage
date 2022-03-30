@@ -5,30 +5,40 @@ body {
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 
+
 }
 
 .header {
     height: 72px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1F2937;
     align-items: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
+}
+
+.header_1 {
+    display: flex;
+    width: 1000px;
+    justify-content:space-between;
+    padding: 0px 10px;
+    align-items: center;
 }
 .cont1 {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     background-color: #1F2937;
     color: white;
-    padding: 1rem 10rem;
+    padding: 3rem 2rem;
 }
 
 .cont2 {
     flex: 1;
     text-align: center;
-    padding: 1rem 10rem;
+    padding: 3rem 2rem;
+
 }
 
 .cont2_1 {
@@ -37,6 +47,52 @@ body {
     justify-content: center;
     gap: 48px;
 }
+
+.cont3 {
+
+    background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+.cont3_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont4 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+
+}
+
+.cont4_1 {
+    display: flex;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    width: 850px;
+    padding: 2rem 2rem;
+}
+
+
+.footer {
+    height: 72px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #E5E7EB;
+}
+
 
 .Title{
     font-size: 48px;
@@ -55,6 +111,7 @@ body {
     flex-direction: column;
     width: 500px;
     padding: 10px;
+
 }
 .sign {
     margin-top: 10px;
@@ -64,9 +121,9 @@ body {
     color: #f9faf8;
     padding: 5px 20px;
     border-radius: 8px;
-    border: none;
-    
+    border: none; 
 }
+
 ul {
     display: flex;
     gap: 32px;
@@ -84,7 +141,7 @@ a {
 .infoimg {
     max-width: 200px;
 }
-.info {
+.info_title {
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -102,4 +159,37 @@ a {
 
 .text {
     color: #7a7a7a
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    font-size: 48px;
+    font-style: italic;
+    color: #1F2937;
+
+    max-width: 900px;
+}
+.author {
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+}
+
+.bxtxt, .bxtxt2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bxtxt {
+    font-weight: bolder;
+}
+.sing2 {
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px  solid white;
 }
