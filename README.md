@@ -1,6 +1,9 @@
 # LandingPage
 This will be a project of landing page. Testing acquired knowledge of HTML, CSS.
 
+## Live
+https://gbn6.github.io/LandingPage/
+
 ## HTML
 - Links
 - Lists
