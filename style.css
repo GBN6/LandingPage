@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #5f87ab;
+    background-color: #365673;
 }
 
 .header_1 {
@@ -108,7 +108,7 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-    background-color: #5f87ab;
+    background-color: #365673;
     align-items: center;
     padding: 1rem 2rem;
     color: white;
@@ -153,8 +153,10 @@ body {
     border: none; 
 }
 
+
 ul {
     display: flex;
+    color:white;
     gap: 32px;
     list-style-type: none;
     margin: 0px;
@@ -163,7 +165,7 @@ ul {
 
 a {
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
     text-decoration: none;
 }
 
